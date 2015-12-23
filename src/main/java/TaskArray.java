@@ -2,7 +2,7 @@
 import java.util.Arrays;
 
 public class TaskArray {
-    private int[] number = {75, 0, -4, 23, 10};
+    int[] number = {75, 0, -4, 23, 10};
     private int indexMin;
     private int indexMax;
     private int min = number[0];

@@ -8,5 +8,8 @@ public class Runner {
 
         TaskArray1 taskArray1=new TaskArray1();
         taskArray1.createArrayAndPrint();
+
+        TaskArray2 taskArray2=new TaskArray2();
+        taskArray2.numberAverageArray();
     }
 }
