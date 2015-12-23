@@ -1,3 +1,4 @@
+package array;
 
 public class Runner {
 
@@ -11,5 +12,9 @@ public class Runner {
 
         TaskArray2 taskArray2=new TaskArray2();
         taskArray2.numberAverageArray();
+
+        TaskArray4 taskArray4 = new TaskArray4();
+        taskArray4.createMas();
+        taskArray4.findMaxValueAndIndex();
     }
 }
