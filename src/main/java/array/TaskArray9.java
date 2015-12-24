@@ -12,6 +12,7 @@ public class TaskArray9 {
 
 
     public void createArrayFibonachi(){
+        System.out.println("task 9");
         num[0]=0;
         num[1]=1;
     for(int i=0; i<num.length; i++){
