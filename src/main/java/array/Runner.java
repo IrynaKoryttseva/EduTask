@@ -24,5 +24,9 @@ public class Runner {
         TaskArray6 taskArray6=new TaskArray6();
         taskArray6.createRandomArray();
         taskArray6.findTheEvenElements();
+
+        TaskArray7 taskArray7 =new TaskArray7();
+        taskArray7.createRandomArray();
+        taskArray7.changeOnZero();
     }
 }
