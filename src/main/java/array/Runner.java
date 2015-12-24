@@ -3,6 +3,7 @@ package array;
 public class Runner {
 
     public static void main(String[]arg){
+
         TaskArray taskArray =new TaskArray();
         taskArray.findIndexMinAndMax();
         taskArray.swapMinAndMax();
@@ -28,5 +29,9 @@ public class Runner {
         TaskArray7 taskArray7 =new TaskArray7();
         taskArray7.createRandomArray();
         taskArray7.changeOnZero();
+     
+        TaskArray8 taskArray8 = new TaskArray8();
+        taskArray8.createRandomArray();
+        taskArray8.findDuplicate();
     }
 }

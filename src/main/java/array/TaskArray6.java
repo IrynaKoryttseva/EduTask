@@ -8,14 +8,14 @@ import java.util.Arrays;
  */
 public class TaskArray6 {
     private int[] num = new int[15];
-    private int indexMin = 0;
-    private int indexMax = 9;
+    private int min = 0;
+    private int max = 9;
     private int count = 0;
 
     public void createRandomArray() {
         System.out.println("task 6");
         for (int i = 0; i < num.length; i++) {
-            num[i] = (int) (Math.random() * ((indexMax - indexMin) + 1) + indexMin);
+            num[i] = (int) (Math.random() * (max - min + 1)) + min;
         }
         System.out.println(Arrays.toString(num));
     }

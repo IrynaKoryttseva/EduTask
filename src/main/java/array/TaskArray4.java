@@ -9,8 +9,8 @@ import java.util.Arrays;
 
 public class TaskArray4 {
     int[] mas = new int[12];
-    private int minRange = -15;
-    private int maxRange = 15;
+    private int min = -15;
+    private int max = 15;
     private int maxValue = mas[0];
     private int indexMaxValue;
     private int indexTemp;
@@ -18,7 +18,7 @@ public class TaskArray4 {
     public void createMas(){
         System.out.println("task 4");
         for(int i=0; i<mas.length;i++){
-          mas[i]= (int) ((Math.random()*((maxRange-minRange)+1))+minRange);
+          mas[i]= (int)(Math.random()*(max - min+1))+ min;
         }
         System.out.println(Arrays.toString(mas));
   }

@@ -10,14 +10,14 @@ package array;
 public class TaskArray5 {
 
     int[] pilot = new int[4];
-    private int minRange = 10;
-    private int maxRange = 99;
+    private int min = 10;
+    private int max = 99;
     private int count = 0;
 
     public void createArray() {
         System.out.println("task 5");
         for (int i = 0; i < pilot.length; i++) {
-            pilot[i] = (int) (Math.random() * ((maxRange - minRange) + 1) + minRange);
+            pilot[i] = (int) (Math.random() * (max - min + 1)) + min;
         }
         System.out.println(Arrays.toString(pilot));
     }
